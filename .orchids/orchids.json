@@ -1,0 +1,11 @@
+{
+  "projectId": "3b7748a9-e685-4b3a-a3f2-a1c5ed6bb5cd",
+  "createdAt": 1767184359697,
+  "version": "1.0",
+  "startupCommands": [
+    "bun install; bun run dev",
+    "npm install --legacy-peer-deps; npm run dev",
+    "cd expo-mobile && npm install; npm run start"
+  ],
+  "templateId": "nextjs"
+}
