@@ -1,9 +1,20 @@
-# AI Nutrition & Fitness Tracker
+# 🥗 NutriFit AI — Nutrition & Fitness Tracker
 
-This project is a Next.js app with a Capacitor native shell, so it can run as:
-- Web app
-- Android app
-- iOS app
+An AI-powered nutrition and fitness tracker that runs everywhere: web, Android, and iOS. Log meals with your camera or voice, and get instant AI food analysis.
+
+## Features
+
+- 📸 Meal logging via native camera capture
+- 🎤 Voice-based meal logging (speech-to-text)
+- 🤖 AI food analysis (`/api/analyze-food`)
+- 📱 One codebase — Web, Android & iOS (Capacitor)
+- 📐 Safe-area aware layout for notched devices
+
+## Tech Stack
+
+- Next.js + TypeScript
+- Capacitor (native shell)
+- Tailwind CSS
 
 ## Web Development
 
@@ -59,3 +70,7 @@ npm run mobile:open:ios
 - iOS builds require Xcode on macOS.
 - Android builds require Android Studio + SDK.
 - Server APIs such as `/api/analyze-food` must be reachable from the mobile app URL.
+
+## License
+
+MIT
